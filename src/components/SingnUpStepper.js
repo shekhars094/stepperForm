@@ -30,13 +30,13 @@ function getSteps() {
 function getStepContent(step) {
 	switch (step) {
 		case 0:
-			return "Select campaign settings...";
+			return "Give Personal Information";
 		case 1:
-			return "What is an ad group anyways?";
+			return "Give Your Parent Information";
 		case 2:
-			return "This is the bit I really care about!";
+			return "Give Your Communication Address";
 		default:
-			return "Unknown step";
+			return "Unkown Step";
 	}
 }
 
