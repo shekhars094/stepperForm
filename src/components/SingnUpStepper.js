@@ -20,7 +20,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function getSteps() {
-	return ["Select campaign settings", "Create an ad group", "Create an ad"];
+	return [
+		"Personal Information",
+		"Parent Information",
+		"Communication Address",
+	];
 }
 
 function getStepContent(step) {
